@@ -1,0 +1,127 @@
+16-Apr-25 22:13:25,035|INFO |L.init             |main                       |MQTT.Cool 2.1.0 build 691
+16-Apr-25 22:13:25,042|INFO |L.init             |main                       |Server launched on Java Virtual Machine: Oracle Corporation, Java HotSpot(TM) 64-Bit Server VM, 17.0.14+8-LTS-191, 17.0.14+8-LTS-191 on Windows 11
+16-Apr-25 22:13:25,055|INFO |L.license          |main                       |License correctly bound with the following parameter(s):
+16-Apr-25 22:13:25,056|INFO |L.license          |main                       |        Product                          : LS-MQTT-EXTENDER
+16-Apr-25 22:13:25,056|INFO |L.license          |main                       |        Edition                          : COMMUNITY
+16-Apr-25 22:13:25,056|INFO |L.license          |main                       |        License Type                     : FREE
+16-Apr-25 22:13:25,056|INFO |L.license          |main                       |        Contract Id                      : -
+16-Apr-25 22:13:25,403|INFO |L.init             |main                       |Number of detected cores: 16
+16-Apr-25 22:13:25,404|INFO |L.init             |main                       |MQTT.Cool starting in COMMUNITY edition.
+16-Apr-25 22:13:25,540|INFO |L.init             |main                       |Started RMI server for JMX on port 8888
+16-Apr-25 22:13:25,547|INFO |L.init             |ng of RMI Connector for JMX|Binding of RMI Connector for JMX on port 8888 (communication on port 8888) started...
+16-Apr-25 22:13:25,644|INFO |L.init             |ng of RMI Connector for JMX|Binding of RMI Connector for JMX on port 8888 (communication on port 8888) successful.
+16-Apr-25 22:13:25,646|INFO |L.init             |Connector reachability test|Test of reachability of the JMX Connector at localhost:8888 started...
+16-Apr-25 22:13:25,666|INFO |L.init             |Connector reachability test|Test of reachability of the JMX Connector at localhost:8888 successful.
+16-Apr-25 22:13:25,805|INFO |L.init             |nnector for Platform mbeans|Binding of RMI Connector for Platform mbeans on port 8888 (communication on port 8888) started...
+16-Apr-25 22:13:25,809|INFO |L.init             |nnector for Platform mbeans|Binding of RMI Connector for Platform mbeans on port 8888 (communication on port 8888) successful.
+16-Apr-25 22:13:25,822|INFO |L.init.connections |main                       |SERVER pool size set by default at 1000.
+16-Apr-25 22:13:25,823|INFO |L.init.connections |main                       |ACCEPT pool size set by default at 16.
+16-Apr-25 22:13:25,828|INFO |L.scheduler        |main                       |Creating passthrough checker on ACCEPT
+16-Apr-25 22:13:25,839|INFO |L.scheduler        |main                       |Creating checker for 100 on SERVER
+16-Apr-25 22:13:25,840|INFO |L.scheduler        |main                       |Importing checkers from SERVER to ACCEPT
+16-Apr-25 22:13:25,840|INFO |L.scheduler        |main                       |Adding checker SERVER to ACCEPT
+16-Apr-25 22:13:25,842|INFO |L.init.connections |main                       |Queue limit checks for SERVER pool added to checks for ACCEPT pool.
+16-Apr-25 22:13:25,842|INFO |L.scheduler        |main                       |Creating passthrough checker on PRESTARTED SESSIONS
+16-Apr-25 22:13:25,941|INFO |L.i.subscriptions  |Init for MQTT              |Loading Metadata Adapter for Adapter Set MQTT
+16-Apr-25 22:13:25,960|INFO |L.i.subscriptions  |Init for MQTT              |Finished loading Metadata Adapter for Adapter Set MQTT
+16-Apr-25 22:13:25,962|INFO |L.i.subscriptions  |Init for MQTT.Connector    |Loading Data Adapter MQTT.Connector
+16-Apr-25 22:13:26,166|INFO |L.i.subscriptions  |Init for MQTT.Connector    |Finished loading Data Adapter MQTT.Connector
+16-Apr-25 22:13:26,172|INFO |L.init.preprocessor|main                       |Events pool size set by default at 16.
+16-Apr-25 22:13:26,177|INFO |L.init.preprocessor|main                       |Snapshot pool size set by default at 16.
+16-Apr-25 22:13:26,218|WARN |L.init.monitoring  |main                       |THE MONITORING DASHBOARD IS NOT PASSWORD PROTECTED. Remember to protect it in production! For more details, see PRODUCTION_SECURITY_NOTES.TXT.
+16-Apr-25 22:13:26,250|INFO |L.init.pump        |main                       |Pump pool size set by default at 16.
+16-Apr-25 22:13:26,250|INFO |L.scheduler        |main                       |Creating passthrough checker on PUMP
+16-Apr-25 22:13:26,256|INFO |L.init.connections |main                       |Selector pool size set by default at 16.
+16-Apr-25 22:13:26,257|INFO |L.init.connections |main                       |Selector maximum load set by default at 0.
+16-Apr-25 22:13:26,285|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 1.
+16-Apr-25 22:13:26,287|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 2.
+16-Apr-25 22:13:26,289|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 3.
+16-Apr-25 22:13:26,291|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 4.
+16-Apr-25 22:13:26,293|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 5.
+16-Apr-25 22:13:26,296|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 6.
+16-Apr-25 22:13:26,298|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 7.
+16-Apr-25 22:13:26,300|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 8.
+16-Apr-25 22:13:26,304|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 9.
+16-Apr-25 22:13:26,306|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 10.
+16-Apr-25 22:13:26,309|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 11.
+16-Apr-25 22:13:26,313|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 12.
+16-Apr-25 22:13:26,315|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 13.
+16-Apr-25 22:13:26,318|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 14.
+16-Apr-25 22:13:26,333|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 15.
+16-Apr-25 22:13:26,336|INFO |L.init.ssl         |main                       |Created selector thread: NIO TLS/SSL HANDSHAKE SELECTOR 16.
+16-Apr-25 22:13:26,342|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 1.
+16-Apr-25 22:13:26,344|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 2.
+16-Apr-25 22:13:26,346|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 3.
+16-Apr-25 22:13:26,348|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 4.
+16-Apr-25 22:13:26,350|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 5.
+16-Apr-25 22:13:26,354|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 6.
+16-Apr-25 22:13:26,355|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 7.
+16-Apr-25 22:13:26,357|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 8.
+16-Apr-25 22:13:26,360|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 9.
+16-Apr-25 22:13:26,362|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 10.
+16-Apr-25 22:13:26,365|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 11.
+16-Apr-25 22:13:26,368|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 12.
+16-Apr-25 22:13:26,371|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 13.
+16-Apr-25 22:13:26,374|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 14.
+16-Apr-25 22:13:26,377|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 15.
+16-Apr-25 22:13:26,382|INFO |L.init.connections |main                       |Created selector thread: NIO WRITE SELECTOR 16.
+16-Apr-25 22:13:26,388|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 1.
+16-Apr-25 22:13:26,391|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 2.
+16-Apr-25 22:13:26,394|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 3.
+16-Apr-25 22:13:26,395|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 4.
+16-Apr-25 22:13:26,398|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 5.
+16-Apr-25 22:13:26,402|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 6.
+16-Apr-25 22:13:26,403|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 7.
+16-Apr-25 22:13:26,405|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 8.
+16-Apr-25 22:13:26,408|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 9.
+16-Apr-25 22:13:26,410|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 10.
+16-Apr-25 22:13:26,413|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 11.
+16-Apr-25 22:13:26,417|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 12.
+16-Apr-25 22:13:26,418|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 13.
+16-Apr-25 22:13:26,421|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 14.
+16-Apr-25 22:13:26,423|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 15.
+16-Apr-25 22:13:26,425|INFO |L.init.connections |main                       |Created selector thread: NIO READ SELECTOR 16.
+16-Apr-25 22:13:26,428|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 1.
+16-Apr-25 22:13:26,430|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 2.
+16-Apr-25 22:13:26,433|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 3.
+16-Apr-25 22:13:26,436|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 4.
+16-Apr-25 22:13:26,438|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 5.
+16-Apr-25 22:13:26,440|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 6.
+16-Apr-25 22:13:26,443|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 7.
+16-Apr-25 22:13:26,445|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 8.
+16-Apr-25 22:13:26,447|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 9.
+16-Apr-25 22:13:26,450|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 10.
+16-Apr-25 22:13:26,452|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 11.
+16-Apr-25 22:13:26,454|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 12.
+16-Apr-25 22:13:26,455|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 13.
+16-Apr-25 22:13:26,458|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 14.
+16-Apr-25 22:13:26,460|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 15.
+16-Apr-25 22:13:26,462|INFO |L.init.connections |main                       |Created selector thread: NIO CHECK SELECTOR 16.
+16-Apr-25 22:13:26,465|INFO |L.init             |main                       |MQTT.Cool initialized.
+16-Apr-25 22:13:26,466|INFO |L.init             |main                       |MQTT.Cool 2.1.0 build 691 starting...
+16-Apr-25 22:13:26,481|INFO |L.init             |R for MQTT.Cool HTTP Server|Session creation on socket MQTT.Cool HTTP Server bound to any queue limits for SERVER pool.
+16-Apr-25 22:13:26,481|INFO |L.init             |main                       |Server "MQTT.Cool HTTP Server" listening to *:8080 ...
+16-Apr-25 22:13:26,715|INFO |L.requests         |SERVER POOLED THREAD 10    |Serving request: /lightstreamer/create_session.txt?LS_protocol=TLCP-2.1.0 --> LS_phase=8601&LS_cause=new.failure.status0&LS_polling=true&LS_polling_millis=0&LS_idle_millis=0&LS_cid=pcYgxn8m8 feOojyA1U661i3g2.pz47Af6k&LS_adapter_set=MQTT&LS_user=demouser&LS_password=[...]& on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57044
+16-Apr-25 22:13:26,820|INFO |L.requests         |SERVER POOLED THREAD 7     |Starting new session: S939a6422453da991M893T1326817 (javascript_client 8.0.3 build 1800) on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57044
+16-Apr-25 22:13:26,843|INFO |L.pump             |SERVER POOLED THREAD 7     |Session S939a6422453da991M893T1326817 started.
+16-Apr-25 22:13:26,914|INFO |L.requests         |SERVER POOLED THREAD 7     |Serving request: bind_session -> LS_session=S939a6422453da991M893T1326817&LS_phase=8603&LS_cause=loop1& on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:26,915|INFO |L.requests         |SERVER POOLED THREAD 7     |Attaching session: S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:27,467|INFO |streamerMonitorText|Timer-1                    |Total threads = 170, Total heap = 41943040 (free = 16733896), Sessions = 1 (max = 1, refused = 0), New sessions = [+1, -0], Connections = 3 (max = 3), New connections = [+3, -0], In-pool threads = 74, Active threads = 0, Available threads = 74, Queued tasks = 0, Pool queue wait = 0, NIO write queue = 0, NIO write queue wait = 0, NIO write selectors = 16, NIO total selectors = 64, Subscribed items = 0 (for 0 subscriptions), Inbound throughput = 0 updates/s (pre-filtered = 0), Outbound throughput = 0 updates/s (0.56 kbit/s, max = 0.56), Lost updates = 0 (total = 0), Total bytes sent = 195, Client messages throughput = 0 msgs/s (0 kbit/s, max = 0), Total messages handled = 0, Extra sleep = 3, Notify delay = 0, , MQTT total upstream messages = 0, MQTT upstream throughput = 0.00 messages/s, MQTT max upstream throughput = 0.00 messages/s, MQTT total downstream messages = 0, MQTT downstream throughput = 0.00 messages/s, MQTT max downstream throughput = 0.00 messages/s, MQTT client connections = 0, MQTT max client connections = 0, MQTT shared broker connections = 0, MQTT max shared broker connections = 0, MQTT dedicated broker connections = 0, MQTT max dedicated broker connections = 0, MQTT broker connections = 0, MQTT max broker connections = 0
+16-Apr-25 22:13:32,875|INFO |L.requests         |SERVER POOLED THREAD 7     |Serving request: control -> LS_mode=DISTINCT&LS_group=connection%7C0%7Cusers%252Fyash_m9k5uv6y%7C1%7C%7Ctcp%3A%2F%2Fbroker.mqtt.cool%3A1883%7C%23%7C%23%7C1%7Cyash_m9k5uv6y%7C0&LS_schema=connection_schema&LS_data_adapter=Connector&LS_snapshot=false&LS_requested_max_frequency=unfiltered&LS_subId=1&LS_op=add&LS_reqId=1& LS_session:S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:32,898|INFO |L.requests         |SERVER POOLED THREAD 7     |Controlling session: S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:33,603|INFO |L.requests.messages|SERVER POOLED THREAD 5     |Serving request: msg -> LS_unq=214&LS_reqId=3&LS_sequence=PROTOCOL&LS_max_wait=2000&LS_msg_prog=1&LS_message={"connectionId":"tcp://broker.mqtt.cool:1883|#|#|1|yash_m9k5uv6y|0","packet":{"type":"SUBSCRIBE","packetId":1,"topicFilter":"chat","qos":0}} LS_session:S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:33,603|INFO |L.requests.messages|SERVER POOLED THREAD 7     |Serving request: msg -> LS_unq=217&LS_reqId=4&LS_sequence=PROTOCOL&LS_max_wait=2000&LS_msg_prog=2&LS_message={"connectionId":"tcp://broker.mqtt.cool:1883|#|#|1|yash_m9k5uv6y|0","packet":{"type":"SUBSCRIBE","packetId":2,"topicFilter":"users/#","qos":0}} LS_session:S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:33,603|INFO |L.requests.messages|SERVER POOLED THREAD 10    |Serving request: msg -> LS_unq=329&LS_reqId=5&LS_sequence=PROTOCOL&LS_max_wait=2000&LS_msg_prog=3&LS_message={"connectionId":"tcp://broker.mqtt.cool:1883|#|#|1|yash_m9k5uv6y|0","packet":{"type":"PUBLISH","packetId":null,"message":{"payload":"eyJ0aW1lc3RhbXAiOjE3NDQ4MjE4MTM1ODR9","destinationName":"users/yash_m9k5uv6y","qos":0,"retained":true,"duplicate":false}}} LS_session:S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:33,608|INFO |L.requests.messages|SERVER POOLED THREAD 5     |Sending message to session: S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:33,608|INFO |L.requests.messages|SERVER POOLED THREAD 7     |Sending message to session: S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:33,609|INFO |L.requests.messages|SERVER POOLED THREAD 10    |Sending message to session: S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:33,610|INFO |L.pump.messages    |SERVER POOLED THREAD 7     |Unexpected message PROTOCOL[2] in session S939a6422453da991M893T1326817: delayed by 2000 ms on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:33,610|INFO |L.pump.messages    |SERVER POOLED THREAD 10    |Unexpected message PROTOCOL[3] in session S939a6422453da991M893T1326817: delayed by 2000 ms on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:37,468|INFO |L.requests.messages|SERVER POOLED THREAD 7     |Serving request: msg -> LS_unq=343&LS_reqId=6&LS_sequence=PROTOCOL&LS_max_wait=2000&LS_msg_prog=4&LS_message={"connectionId":"tcp://broker.mqtt.cool:1883|#|#|1|yash_m9k5uv6y|0","packet":{"type":"PUBLISH","packetId":null,"message":{"payload":"eyJjbGllbnRJZCI6Inlhc2hfbTlrNXV2NnkiLCJ0ZXh0UmVwbHkiOiJoZWxsbyJ9","destinationName":"chat","qos":0,"retained":false,"duplicate":false}}} LS_session:S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:37,469|INFO |L.requests.messages|SERVER POOLED THREAD 7     |Sending message to session: S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:38,972|INFO |L.requests.messages|SERVER POOLED THREAD 10    |Serving request: msg -> LS_unq=343&LS_reqId=7&LS_sequence=PROTOCOL&LS_max_wait=2000&LS_msg_prog=5&LS_message={"connectionId":"tcp://broker.mqtt.cool:1883|#|#|1|yash_m9k5uv6y|0","packet":{"type":"PUBLISH","packetId":null,"message":{"payload":"eyJjbGllbnRJZCI6Inlhc2hfbTlrNXV2NnkiLCJ0ZXh0UmVwbHkiOiJvbmUifQ==","destinationName":"chat","qos":0,"retained":false,"duplicate":false}}} LS_session:S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:38,972|INFO |L.requests.messages|SERVER POOLED THREAD 10    |Sending message to session: S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:41,084|INFO |L.requests.messages|SERVER POOLED THREAD 7     |Serving request: msg -> LS_unq=343&LS_reqId=8&LS_sequence=PROTOCOL&LS_max_wait=2000&LS_msg_prog=6&LS_message={"connectionId":"tcp://broker.mqtt.cool:1883|#|#|1|yash_m9k5uv6y|0","packet":{"type":"PUBLISH","packetId":null,"message":{"payload":"eyJjbGllbnRJZCI6Inlhc2hfbTlrNXV2NnkiLCJ0ZXh0UmVwbHkiOiJ0d28gIn0=","destinationName":"chat","qos":0,"retained":false,"duplicate":false}}} LS_session:S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:41,085|INFO |L.requests.messages|SERVER POOLED THREAD 7     |Sending message to session: S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:42,241|INFO |L.requests.messages|SERVER POOLED THREAD 10    |Serving request: msg -> LS_unq=343&LS_reqId=9&LS_sequence=PROTOCOL&LS_max_wait=2000&LS_msg_prog=7&LS_message={"connectionId":"tcp://broker.mqtt.cool:1883|#|#|1|yash_m9k5uv6y|0","packet":{"type":"PUBLISH","packetId":null,"message":{"payload":"eyJjbGllbnRJZCI6Inlhc2hfbTlrNXV2NnkiLCJ0ZXh0UmVwbHkiOiJ0aHJlZSJ9","destinationName":"chat","qos":0,"retained":false,"duplicate":false}}} LS_session:S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055
+16-Apr-25 22:13:42,241|INFO |L.requests.messages|SERVER POOLED THREAD 10    |Sending message to session: S939a6422453da991M893T1326817 on "MQTT.Cool HTTP Server" from 0:0:0:0:0:0:0:1:57055

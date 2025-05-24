@@ -1,0 +1,59 @@
+08-Apr-25 19:54:25,350|INFO |MQTTCoolLogger                          |Init for MQTT              |MQTT Extender starting
+08-Apr-25 19:54:25,362|INFO |MQTTCoolLogger.init                     |Init for MQTT.Connector    |Starting to load MQTT server configurations
+08-Apr-25 19:54:25,374|INFO |MQTTCoolLogger.init                     |Init for MQTT.Connector    |Loaded MQTT server configuration for alias "eclipse-iot"
+08-Apr-25 19:54:25,462|INFO |MQTTCoolLogger.init                     |Init for MQTT.Connector    |Loaded MQTT server configuration for alias "public-tls-mosquitto"
+08-Apr-25 19:54:25,463|INFO |MQTTCoolLogger.init                     |Init for MQTT.Connector    |Loaded MQTT server configuration for alias "vernemq2"
+08-Apr-25 19:54:25,464|INFO |MQTTCoolLogger.init                     |Init for MQTT.Connector    |Loaded MQTT server configuration for alias "public-mosquitto"
+08-Apr-25 19:54:25,465|INFO |MQTTCoolLogger.init                     |Init for MQTT.Connector    |Loaded MQTT server configuration for alias "mosquitto"
+08-Apr-25 19:54:25,466|INFO |MQTTCoolLogger.init                     |Init for MQTT.Connector    |Loaded MQTT server configuration for alias "vernemq1"
+08-Apr-25 19:54:25,480|INFO |MQTTCoolLogger.init                     |Init for MQTT.Connector    |Loaded MQTT server configuration for alias "public-tls-client-auth-mosquitto"
+08-Apr-25 19:54:25,481|INFO |MQTTCoolLogger.init                     |Init for MQTT.Connector    |Loaded MQTT server configuration for alias "public-hivemq"
+08-Apr-25 19:54:25,481|INFO |MQTTCoolLogger.init                     |Init for MQTT.Connector    |MQTT server configurations loaded
+08-Apr-25 19:54:25,491|INFO |MQTTCoolLogger.init                     |Init for MQTT.Connector    |MQTT Extender configuration loaded
+08-Apr-25 19:54:25,491|INFO |MQTTCoolLogger                          |Init for MQTT.Connector    |MQTT Extender started
+08-Apr-25 19:54:28,261|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 7     |Opened session Saa2e7302333b306fM400T5428261
+08-Apr-25 19:54:28,261|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 9     |Opened session S626a6d9685b18fb5M400T5428261
+08-Apr-25 19:54:51,061|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 7     |Opened session Sbbf50601f836eaadM400T5451061
+08-Apr-25 19:55:27,556|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 7     |Opened session Sca7d1df5c2e64816M400T5527556
+08-Apr-25 19:55:35,283|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 5     |Opened session S7430c1f43118be45M400T5535283
+08-Apr-25 19:55:37,551|INFO |MQTTCoolLogger                          |ASYNC-2                    |Established SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d with tcp://broker.mqtt.cool:1883
+08-Apr-25 19:55:53,319|INFO |MQTTCoolLogger                          |ASYNC-4                    |Successfully subscribed to "#" (QoS=0) on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 19:56:00,684|INFO |MQTTCoolLogger                          |ASYNC-8                    |Successfully unsubscribed from "#"
+08-Apr-25 19:56:21,467|INFO |MQTTCoolLogger                          |ASYNC-9                    |Established DEDICATED connection f3744a69-2fdd-4585-90de-7209a59da050 with tcp://broker.mqtt.cool:1883
+08-Apr-25 19:56:21,492|INFO |MQTTCoolLogger                          |ASYNC-10                   |Delivered MESSAGE[topic=users/yash_m98lfm7p,QoS=AT_MOST_ONCE,duplicate=false,retained=true,payload=...] on DEDICATED connection f3744a69-2fdd-4585-90de-7209a59da050
+08-Apr-25 19:56:21,632|INFO |MQTTCoolLogger                          |ASYNC-1                    |Successfully subscribed to "chat" (QoS=0) on DEDICATED connection f3744a69-2fdd-4585-90de-7209a59da050
+08-Apr-25 19:56:21,789|INFO |MQTTCoolLogger                          |ASYNC-2                    |Successfully subscribed to "users/yash_m98lfm7p" (QoS=0) on DEDICATED connection f3744a69-2fdd-4585-90de-7209a59da050
+08-Apr-25 19:56:24,963|INFO |MQTTCoolLogger                          |ASYNC-7                    |Delivered MESSAGE[topic=chat,QoS=AT_MOST_ONCE,duplicate=false,retained=false,payload=...] on DEDICATED connection f3744a69-2fdd-4585-90de-7209a59da050
+08-Apr-25 19:58:52,049|INFO |MQTTCoolLogger                          |ASYNC-9                    |Successfully subscribed to "chat/general" (QoS=0) on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 19:59:09,978|INFO |MQTTCoolLogger                          |ASYNC-10                   |Delivered MESSAGE[topic=new,QoS=AT_MOST_ONCE,duplicate=false,retained=false,payload=...] on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 19:59:15,884|INFO |MQTTCoolLogger                          |ASYNC-1                    |Delivered MESSAGE[topic=new,QoS=AT_MOST_ONCE,duplicate=false,retained=false,payload=...] on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 19:59:23,869|INFO |MQTTCoolLogger                          |ASYNC-7                    |Delivered MESSAGE[topic=new,QoS=AT_MOST_ONCE,duplicate=false,retained=false,payload=...] on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 19:59:24,506|INFO |MQTTCoolLogger                          |ASYNC-5                    |Delivered MESSAGE[topic=new,QoS=AT_MOST_ONCE,duplicate=false,retained=false,payload=...] on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 19:59:30,255|INFO |MQTTCoolLogger                          |ASYNC-3                    |Delivered MESSAGE[topic=new,QoS=AT_MOST_ONCE,duplicate=false,retained=false,payload=...] on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 20:01:06,233|INFO |MQTTCoolLogger                          |ASYNC-2                    |Successfully unsubscribed from "chat/general"
+08-Apr-25 20:01:10,315|INFO |MQTTCoolLogger                          |ASYNC-7                    |Successfully subscribed to "chat" (QoS=0) on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 20:01:52,235|INFO |MQTTCoolLogger                          |ASYNC-1                    |Delivered MESSAGE[topic=chat,QoS=AT_MOST_ONCE,duplicate=false,retained=false,payload=...] on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 20:01:52,442|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 8     |Lost DEDICATED connection f3744a69-2fdd-4585-90de-7209a59da050 from tcp://broker.mqtt.cool:1883
+08-Apr-25 20:05:04,650|INFO |MQTTCoolLogger                          |ASYNC-10                   |Successfully subscribed to "users" (QoS=0) on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 20:05:09,133|INFO |MQTTCoolLogger                          |ASYNC-2                    |Successfully unsubscribed from "users"
+08-Apr-25 20:05:15,443|INFO |MQTTCoolLogger                          |ASYNC-7                    |Successfully subscribed to "users/yash" (QoS=0) on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 20:05:18,779|INFO |MQTTCoolLogger                          |ASYNC-5                    |Delivered MESSAGE[topic=chat,QoS=AT_MOST_ONCE,duplicate=false,retained=false,payload=...] on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 20:05:39,944|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 3     |Closed session Sca7d1df5c2e64816M400T5527556
+08-Apr-25 20:05:41,133|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 8     |Opened session S1cfe20a26385ac1dM400T0541133
+08-Apr-25 20:05:46,398|INFO |MQTTCoolLogger                          |ASYNC-10                   |Established DEDICATED connection babc85c6-b699-4ceb-84d7-83d5ecbe60d1 with tcp://broker.mqtt.cool:1883
+08-Apr-25 20:05:46,410|INFO |MQTTCoolLogger                          |ASYNC-8                    |Delivered MESSAGE[topic=users/yash_m98lrq4l,QoS=AT_MOST_ONCE,duplicate=false,retained=true,payload=...] on DEDICATED connection babc85c6-b699-4ceb-84d7-83d5ecbe60d1
+08-Apr-25 20:05:46,565|INFO |MQTTCoolLogger                          |ASYNC-7                    |Successfully subscribed to "chat" (QoS=0) on DEDICATED connection babc85c6-b699-4ceb-84d7-83d5ecbe60d1
+08-Apr-25 20:05:46,727|INFO |MQTTCoolLogger                          |ASYNC-5                    |Successfully subscribed to "users/#" (QoS=0) on DEDICATED connection babc85c6-b699-4ceb-84d7-83d5ecbe60d1
+08-Apr-25 20:05:49,157|INFO |MQTTCoolLogger                          |ASYNC-9                    |Delivered MESSAGE[topic=chat,QoS=AT_MOST_ONCE,duplicate=false,retained=false,payload=...] on DEDICATED connection babc85c6-b699-4ceb-84d7-83d5ecbe60d1
+08-Apr-25 20:05:51,468|INFO |MQTTCoolLogger                          |ASYNC-10                   |Delivered MESSAGE[topic=chat,QoS=AT_MOST_ONCE,duplicate=false,retained=false,payload=...] on DEDICATED connection babc85c6-b699-4ceb-84d7-83d5ecbe60d1
+08-Apr-25 20:05:54,194|INFO |MQTTCoolLogger                          |ASYNC-8                    |Delivered MESSAGE[topic=chat,QoS=AT_MOST_ONCE,duplicate=false,retained=false,payload=...] on DEDICATED connection babc85c6-b699-4ceb-84d7-83d5ecbe60d1
+08-Apr-25 20:06:06,258|INFO |MQTTCoolLogger                          |ASYNC-6                    |Delivered MESSAGE[topic=chat,QoS=AT_MOST_ONCE,duplicate=false,retained=false,payload=...] on SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d
+08-Apr-25 20:06:06,439|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 3     |Lost DEDICATED connection babc85c6-b699-4ceb-84d7-83d5ecbe60d1 from tcp://broker.mqtt.cool:1883
+08-Apr-25 20:07:20,349|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 3     |Closed session S1cfe20a26385ac1dM400T0541133
+08-Apr-25 20:07:20,372|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 3     |Closed session S7430c1f43118be45M400T5535283
+08-Apr-25 20:07:20,412|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 3     |Closed session Sbbf50601f836eaadM400T5451061
+08-Apr-25 20:07:20,417|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 3     |Closed session Saa2e7302333b306fM400T5428261
+08-Apr-25 20:07:20,421|INFO |MQTTCoolLogger                          |SERVER POOLED THREAD 3     |Closed session S626a6d9685b18fb5M400T5428261
+08-Apr-25 20:07:20,520|INFO |MQTTCoolLogger                          |ASYNC-6                    |Successfully unsubscribed from "chat"
+08-Apr-25 20:07:20,669|INFO |MQTTCoolLogger                          |ASYNC-4                    |Successfully unsubscribed from "users/yash"
+08-Apr-25 20:07:25,386|INFO |MQTTCoolLogger                          |Multipexer POOLED THREAD 57|Lost SHARED connection b837081a-07b3-41fa-882c-b0036f3b9e7d from tcp://broker.mqtt.cool:1883
